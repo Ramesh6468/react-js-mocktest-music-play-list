@@ -1,0 +1,74 @@
+.bgContainer {
+  background-color: #152850;
+  height: 100%vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+}
+.imageCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.title {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.role {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.searchCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.inputCard {
+  background-color: #152850;
+  border: 2px solid #cbd5e1;
+  border-radius: 5px;
+  margin-right: 30px;
+  padding: 5px;
+}
+.input {
+  background-color: #152850;
+  border: none;
+}
+.button2 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.icon {
+  color: #ffffff;
+}
+.list2 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.list3 {
+  overflow: auto;
+}
+.error {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
